@@ -1,5 +1,5 @@
 # Use a base image with Java pre-installed
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11-jre-slim
 
 # Set the working directory inside the container
 WORKDIR /app
